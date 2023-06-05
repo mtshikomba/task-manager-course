@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title', 100);
             $table->string('description', 255);
-            $table->boolean('completed')->unsigned();
+            $table->boolean('completed')->unsigned()->default(false);
             $table->integer('user_id')->unsigned();
             $table->timestamps();
         });

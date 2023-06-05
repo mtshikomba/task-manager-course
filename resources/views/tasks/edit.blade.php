@@ -24,7 +24,7 @@
 
                     <div class="mb-4">
                         <label for="completed" class="block text-sm font-medium text-gray-700">Completed</label>
-                        <input type="checkbox" name="completed" id="completed" {{ $task->completed ? 'checked' : '' }} class="mt-1 focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+                        <input type="checkbox" value="1" name="completed" id="completed" {{ $task->completed ? 'checked' : '' }} class="mt-1 focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
                     </div>
 
                     <div class="flex items-center justify-end mt-4">
