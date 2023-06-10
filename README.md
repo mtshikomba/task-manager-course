@@ -18,4 +18,4 @@ Task Manager is an app for managing personal tasks
 ## Related Resources
 
 - Book: Amazon Link
-- Udemy Course: Udemy Link
+- Udemy Course: https://www.udemy.com/course/learn-laravel-9-for-the-absolute-beginner-with-chatgpt
